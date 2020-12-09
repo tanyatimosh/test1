@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "ManropeBold";
+    src: url("../fonts/web/Manrope-Bold.woff2") format("woff2"),
+           url("../fonts/web/Manrope-Bold.woff") format("woff");
+}
+
+.promo {
+    margin-top: 50px;
+}
+
+.promo__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.promo__header-title {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    font-family: "ManropeBold";
+}
+
+.controls {
+    display: flex;
+}
+
+.controls__control {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.controls__control--left {
+    background-image: url(../img/Subtract.svg);
+}
+
+
+.controls__control--left:hover {
+    background-image: url(../img/Subtract\ \(1\).svg);
+    transform: rotate(180deg);
+}
+
+
+.controls__control--right {
+    background-image: url(../img/Subtract.svg);
+    transform: rotate(180deg);
+    margin-left: 8px;
+}
+
+
+.controls__control--right:hover {
+    background-image: url(../img/Subtract\ \(1\).svg);
+    transform: rotate(0);
+}
+
+.promo__body {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.promo__body-text {
+    font-family: "ManropeBold";
+}
+
+/**.promo__body-pictures {
+    border-radius: 10px;
+    overflow: hidden;
+}**/
+
+.promo__body-pictures img {
+    border-radius: 10px;
+    width: 100%;
+}
+.promo__footer-pictures img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn {
+    margin: 30px;
+    background-color: #FFDD66;
+
+}
+
+.promo__footer {
+    display: flex;
+}
+
+.promo__footer-text {
+    margin-bottom: 20px;
+    font-family: "ManropeBold";
+    font-size: 20px;
+
+}
+
+.promo__footer-description,p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
